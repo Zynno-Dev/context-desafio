@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import MobileList from './Components/MobileList/MobileList';
+import { MobileProvider } from './MobileContext/MobileContext'
 
 function App() {
   return (

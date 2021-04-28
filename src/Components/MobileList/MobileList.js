@@ -6,7 +6,9 @@ const MobileList = () => {
   const value = useContext(MobileContext);
   return (
     <div>
-      <h1>{value}</h1>
+      <h3>
+        {value}
+      </h3>
     </div>
   );
 };
